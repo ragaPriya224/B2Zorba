@@ -4,7 +4,8 @@ public class StringDemo {
 
 	public static void main(String[] args) {
 
-		String name =" Good morning ";
+		String name ="Good morning";
+		
 		System.out.println(name);
 		System.out.println(name.length());
 		System.out.println(name.toLowerCase());
@@ -19,6 +20,10 @@ public class StringDemo {
 		System.out.println(name.lastIndexOf('o'));
 		System.out.println(name);
 		System.out.println(name.trim());
+		System.out.println(name.startsWith("Gskdfood"));
+		System.out.println(name.endsWith("ning"));
+		System.out.println(name.replace('o', 'z'));
+		
 		//		System.out.println(name.);
 
 
