@@ -17,7 +17,13 @@ public class NonPrimitiveDemo {
 		System.out.println(marks[1]);
 		System.out.println(marks.toString());
 		
-
+        int []age = new int[7];
+        age[3] = 50;
+        age[20] = 100;
+        System.out.println(age[3]);
+//        System.out.println(age[10]); //array index out of bound exception
+        System.out.println("**********");
+        
 	}
 
 }
