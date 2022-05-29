@@ -11,8 +11,9 @@ public class OperatorDemo {
 		System.out.println(5 != 5);
 
 		int age = 20;
-		String citizen = "american";
-		if(age >= 18  | citizen == "nepali") {
+		String citizen = "nepali";
+		String state = "california";
+		if(age >= 18  ||  state == "texas") { //false
 			System.out.println("you're eligible to vote");
 		}else {
 			System.out.println("you're not eligible to votes");
